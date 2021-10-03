@@ -1,0 +1,3 @@
+## This file is the bash shell script for backing up an SD card. 
+
+sudo dd if=/dev/sdb | gzip > /path/to/folder/backup.img.gz
